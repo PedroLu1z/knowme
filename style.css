@@ -1,0 +1,60 @@
+.bg-custom {
+    background-image: url('./img/img-fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  /* Remove a imagem de fundo no mobile */
+  @media (max-width: 767px) {
+    .bg-custom {
+      background-image: none;
+      background-color: #fff; /* Define um fundo neutro no mobile */
+      color: #000; /* Ajusta a cor do texto para legibilidade */
+    }
+  }
+  
+.instagram-btn{
+  background: linear-gradient(45deg, #833AB4, #E1306C, #FD1D1D, #FCAF45);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.instagram-btn:hover{
+  transform: scale(1.05);
+}
+
+.github-btn{
+  background: linear-gradient( #24292F, #586069);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.github-btn:hover{
+  transform: scale(1.05);
+}
+
+#pfilmes{
+  cursor: pointer;
+}
+
+#pseries{
+  cursor: pointer;
+}
+
+#panimes{
+  cursor: pointer;
+}
